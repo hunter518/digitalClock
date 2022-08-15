@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("https://i.pinimg.com/originals/9c/eb/68/9ceb68af944fb31a1c663ff64bbf0dc0.jpg");
+    background-size: cover;
+}
+h1{
+    color: white;
+    text-transform: uppercase;
+}
+.clock{
+    color: white;
+    display: flex;
+}
+.clock div{
+    margin: 10px 10px;
+    padding: 20px 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 2px rgb(52, 52, 52);
+    background: rgba(137, 63, 137, 0.585);
+    display: flex;
+    justify-content: space-evenly;
+}
+.clock div span{
+    display: block;
+    letter-spacing: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
